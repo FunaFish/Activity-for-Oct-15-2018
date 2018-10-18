@@ -20,7 +20,7 @@ public class Driver {
 			
 			System.out.println("Enter price for phone: ");
 			price = phoneScan.nextDouble();
-			phoneScan.next();
+			phoneScan.nextLine();
 			
 			System.out.println("Enter Carrier: ");
 			carrier = phoneScan.nextLine();
